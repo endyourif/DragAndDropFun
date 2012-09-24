@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Endyourif.com - Drag and Drop Example</title>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="jquery-ui.js"></script>
+	<script type="text/javascript" src="drag.js"></script>
+	<link rel="stylesheet" type="text/css" href="drag.css" />
+</head>
+<body>
+
+	<div id="content">
+		<table class="listing" width="550" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<th>Title</th>
+			<th>Category</th>
+			<th>Created</th>
+			<th>Modified</th>
+			<th class="actions" colspan="2">Actions</th>
+		</tr>
+		<tr class="dropTarget">
+			<td>
+				<input type="Hidden" name="articleid" value="1">
+				<input type="Hidden" name="row" value="1">
+				Article 1
+			</td>
+			<td>Category 1</td>
+			<td>February 12, 2009</td>
+			<td>February 14, 2009</td>
+			<td class="actions" width="50"><a href="#">Edit</a></td>
+			<td class="actions" width="50"><a href="#" onclick="return confirm('Are you sure you wish to delete this article?')">Delete</a></td>
+		</tr>
+		<tr class="dropTarget alt">
+			<td>
+				<input type="Hidden" name="articleid" value="2">
+				<input type="Hidden" name="row" value="2">
+				Article 2
+			</td>
+			<td>Category 2</td>
+			<td>February 12, 2009</td>
+			<td>February 14, 2009</td>
+			<td class="actions" width="50"><a href="#">Edit</a></td>
+			<td class="actions" width="50"><a href="#" onclick="return confirm('Are you sure you wish to delete this article?')">Delete</a></td>
+		</tr>
+		<tr class="dropTarget">
+			<td>
+				<input type="Hidden" name="articleid" value="3">
+				<input type="Hidden" name="row" value="3">
+				Article 3
+			</td>
+			<td>Category 3</td>
+			<td>February 12, 2009</td>
+			<td>February 14, 2009</td>
+			<td class="actions" width="50"><a href="#">Edit</a></td>
+			<td class="actions" width="50"><a href="#" onclick="return confirm('Are you sure you wish to delete this article?')">Delete</a></td>
+		</tr>
+		<tr class="dropTarget alt">
+			<td>
+				<input type="Hidden" name="articleid" value="4">
+				<input type="Hidden" name="row" value="4">
+				Article 4
+			</td>
+			<td>Category 4</td>
+			<td>February 12, 2009</td>
+			<td>February 14, 2009</td>
+			<td class="actions" width="50"><a href="#">Edit</a></td>
+			<td class="actions" width="50"><a href="#" onclick="return confirm('Are you sure you wish to delete this article?')">Delete</a></td>
+		</tr>
+		</table>
+	</div>
+</body>
+</html>

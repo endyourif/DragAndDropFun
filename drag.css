@@ -1,0 +1,24 @@
+table.listing, table.listing td, table.listing th {
+	border: 1px solid #000000;
+}
+table.listing td, table.listing th {
+	padding: 3px;
+	text-align: left;
+}
+table.listing .actions {
+	text-align: center;
+}
+table.listing tr.alt td {
+	background-color: #DBDBDB;
+}
+table.listing tr.droppable-hover td {
+	background-color: #E1F9BC;
+}
+.dragBox {
+	background-color: #E1F9BC;
+	border: 1px solid #000000;
+	color: #000000;
+	height: 50px;
+	padding: 1em;
+	width: 200px;
+}
